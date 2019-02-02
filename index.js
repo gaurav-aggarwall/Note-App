@@ -23,7 +23,7 @@ let args = yargs
             title: titleOptions 
         })
         .command('list', 'List out all the notes')
-        .command('search', 'Remove an existing note' , {
+        .command('search', 'Show details of an existing note' , {
             title: titleOptions 
         })
         .help()
